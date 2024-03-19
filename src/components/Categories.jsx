@@ -5,6 +5,7 @@ import Cplus from "../assets/cplus.jpg";
 import Java from "../assets/java.png";
 import Web from "../assets/web.jpg";
 import Python from "../assets/Python.png";
+import Flutter from "../assets/flutter.jpg";
 
 const Categories = () => {
   const dummyCategories = [
@@ -13,6 +14,7 @@ const Categories = () => {
     { id: 3, title: "C++", path: "/cplus", photo: Cplus },
     { id: 4, title: "Web", path: "/web", photo: Web },
     { id: 5, title: "Python", path: "/python", photo: Python },
+    { id: 6, title: "Flutter", path: "/flutter", photo: Flutter },
   ];
   return (
     <div>

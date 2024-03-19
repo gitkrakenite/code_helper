@@ -32,7 +32,8 @@ const Home = () => {
           <div className="text-zinc-300 flex flex-col  sm:flex-row gap-16 justify-start">
             <div className="bg-zinc-800 p-5 rounded-xl">
               <h2 className="text-2xl font-bold mb-4">Mr. Edwin Osoro</h2>
-              <p className="text-sm mb-4">Senior Lecturer Daystar Univerity</p>
+              <p className="text-sm mb-1">Lecturer Daystar Univerity</p>
+              <p className="text-sm mb-4">Computer Science</p>
               <div className="mb-4">
                 <a
                   href="mailto:eosoro@daystar.ac.ke"
@@ -55,7 +56,8 @@ const Home = () => {
             {/*  */}
             <div className="bg-zinc-800 p-5 rounded-xl">
               <h2 className="text-2xl font-bold mb-4">Mr. John Steele</h2>
-              <p className="text-sm mb-4">Full Stack Software Engineer</p>
+              <p className="text-sm mb-2">Full Stack Software Engineer</p>
+              <p className="text-sm mb-4">Mentor</p>
               <div className="mb-4">
                 <a
                   href="mailto:eosoro@daystar.ac.ke"
